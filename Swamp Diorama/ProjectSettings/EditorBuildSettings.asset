@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Vr-Diorama.unity
+    guid: e574b16b4e1c24c139e10ca61a10fa72
+  - enabled: 0
+    path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.12.0/Hello Cardboard/Scenes/HelloCardboard.unity
+    guid: 145a2a45d7bc746b19cb68410368bf96
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5efe2638a9f6acb4985d14cad442ce32,
       type: 2}
