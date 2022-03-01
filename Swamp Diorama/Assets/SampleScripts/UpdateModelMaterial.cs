@@ -17,7 +17,9 @@ public class UpdateModelMaterial : MonoBehaviour
     /// <param name="newMat"> The new material for the object </param>
     public void UpdateMaterial(Material newMat)
     {
-        GetComponent<SkinnedMeshRenderer>().materials[index] = newMat;
+        Material[] newMaterials = GetComponent<SkinnedMeshRenderer>().materials;
+        newMaterials[index] = newMat;
+        GetComponent<SkinnedMeshRenderer>().materials = newMaterials;
     }
 
     /// <summary>
